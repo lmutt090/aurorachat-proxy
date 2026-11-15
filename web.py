@@ -4,7 +4,7 @@ from flask import Flask, send_from_directory
 from flask_sock import Sock
 from simple_websocket import Client, ConnectionClosed
 
-AURORA_HOST = "startendo.org"
+AURORA_HOST = "144.217.26.87"
 AURORA_PORT = 7071
 
 app = Flask(__name__)
